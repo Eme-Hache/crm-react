@@ -1,0 +1,12 @@
+{
+  "clientes": [
+    {
+      "name": "Luis",
+      "company": "Trader Independiente",
+      "email": "luisalfonsodsg@outlook.com",
+      "phone": "304858503",
+      "notes": "El mejor trader de todos los tiempos",
+      "id": 1
+    }
+  ]
+}
