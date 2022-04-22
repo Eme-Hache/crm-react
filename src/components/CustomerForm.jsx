@@ -27,7 +27,7 @@ const CustomerForm = ({ customer, loading }) => {
         try {
             if (customer.id) {
                 // Update current customer
-                const url = `http://localhost:4000/clientes/${customer.id}`
+                const url = `${import.meta.env.VITE_API_URL}/${customer.id}`
                 await fetch(url, {
                     method: 'PUT',
                     headers: {
@@ -38,7 +38,7 @@ const CustomerForm = ({ customer, loading }) => {
             }
             else {
                 // Add new customer
-                const url = 'http://localhost:4000/clientes'
+                const url = import.meta.env.VITE_API_URL
                 await fetch(url, {
                     method: 'POST',
                     headers: {

@@ -7,7 +7,7 @@ const Inicio = () => {
     useEffect(() => {
         const getCustomers = async () => {
             try {
-                const url = 'http://localhost:4000/clientes'
+                const url = import.meta.env.VITE_API_URL
                 let response = await fetch(url)
                 response = await response.json()
 
@@ -26,7 +26,7 @@ const Inicio = () => {
 
         if (confirmDialog) {
             try {
-                const url = `http://localhost:4000/clientes/${id}`
+                const url = `${import.meta.env.VITE_API_URL}/${id}`
                 await fetch(url, {
                     method: 'DELETE',
                     headers: {
