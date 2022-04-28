@@ -45,16 +45,16 @@ const Inicio = () => {
 
     return (
         <>
-            <h1 className='font-black text-4xl text-blue-900'>Listado de Clientes</h1>
+            <h1 className='font-black text-4xl text-blue-800'>Listado de Clientes</h1>
             <p className='mt-3'>Administra tus clientes aquí</p>
 
-            <table className='w-full mt-5 table-auto shadow bg-white'>
-                <thead>
+            <table className='w-full mt-5 table-auto shadow bg-white rounded-md'>
+                <thead className='border-b-2'>
                     <tr>
-                        <th className='p-2'>Nombre</th>
-                        <th className='p-2'>Contacto</th>
-                        <th className='p-2'>Empresa</th>
-                        <th className='p-2'>Acciones</th>
+                        <th className='py-5'>Nombre</th>
+                        <th className='py-5'>Contacto</th>
+                        <th className='py-5'>Empresa</th>
+                        <th className='py-5'>Acciones</th>
                     </tr>
                 </thead>
 

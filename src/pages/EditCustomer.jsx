@@ -28,8 +28,10 @@ const EditCustomer = () => {
 
     return (
         <>
-            <h1 className='font-black text-4xl text-blue-900'>Editar Cliente</h1>
-            <p className='mt-3'>Utiliza este formulario para editar los datos del cliente</p>
+            <div className='md:w-3/4 mx-auto'>
+                <h1 className='font-black text-4xl text-blue-800 text-center mb-14'>Editar Cliente</h1>
+                <p className='mt-3'>Utiliza este formulario para editar los datos del cliente</p>
+            </div>
 
             {Object.keys(customer).length === 0 ? <p>ID del cliente no encontrado</p> : (
                 <Formulario customer={customer} loading={loading} />

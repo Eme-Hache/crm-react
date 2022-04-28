@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { Formik, Form, Field } from 'formik';
 import Spinner from './Spinner';
-import Alerta from './Alerta';
+import Alerta from './Alert';
 import * as Yup from 'yup'
 
 const CustomerForm = ({ customer, loading }) => {
@@ -49,7 +49,7 @@ const CustomerForm = ({ customer, loading }) => {
                 })
             }
             
-            navigate('/clientes')
+            navigate('/customers')
         }
         catch (error) {
             console.log(error)

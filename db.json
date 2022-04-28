@@ -1,11 +1,11 @@
 {
   "clientes": [
     {
-      "name": "Luis",
-      "company": "Trader Independiente",
+      "name": "Luis Alfonso",
+      "company": "CME",
       "email": "luisalfonsodsg@outlook.com",
-      "phone": "304858503",
-      "notes": "El mejor trader de todos los tiempos",
+      "phone": "3047364532",
+      "notes": "El mejor trader del mundo",
       "id": 1
     }
   ]
