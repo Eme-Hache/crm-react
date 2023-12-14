@@ -11,20 +11,7 @@ const Menu = ({ toggled, setToggled }) => {
                 CRM
             </h2>
 
-            <nav className='mt-10 px-6'>
-                {/* <div
-                    className='text-md mt-2 transition duration-200
-                        px-5 py-3 rounded-md text-gray-600
-                        bg-blue-50 flex items-center'
-                >
-                    <i className={`fa-solid fa-magnifying-glass`} />
-                    <input
-                        className='bg-blue-50 w-full pl-3 text-gray-500 focus:outline-none'
-                        placeholder='Buscar cliente'
-                        type='text'
-                    />
-                </div> */}
-
+            <nav className='mt-10 px-6 flex flex-row md:flex-col gap-4'>
                 <MenuItem toggled={toggled} to='/customers' icon='fa-solid fa-house'>
                     Todos los Clientes
                 </MenuItem>

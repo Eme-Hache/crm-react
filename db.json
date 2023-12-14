@@ -1,11 +1,11 @@
 {
   "clientes": [
     {
-      "name": "Luis Alfonso",
-      "company": "CME",
-      "email": "luisalfonsodsg@outlook.com",
-      "phone": "3047364532",
-      "notes": "El mejor trader del mundo",
+      "name": "Juan",
+      "company": "BBC",
+      "email": "juan@bbc.com",
+      "phone": "47839283",
+      "notes": "Pendiente revisión",
       "id": 1
     }
   ]

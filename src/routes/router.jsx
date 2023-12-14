@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import CustomerDetails from './pages/CustomerDetails'
-import EditCustomer from './pages/EditCustomer'
-import AddCustomer from './pages/AddCustomer'
-import Layout from './layout/Layout'
-import Index from './pages/Index'
+import CustomerDetails from '../pages/CustomerDetails'
+import EditCustomer from '../pages/EditCustomer'
+import AddCustomer from '../pages/AddCustomer'
+import Layout from '../layout/Layout'
+import Index from '../pages/Index'
 
 const App = () => {
   return (
